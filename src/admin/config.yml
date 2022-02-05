@@ -16,10 +16,10 @@ collections:
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
+    preview_path: "/posts"
     create: true
     editor:
       preview: true
-      preview_path: "/posts"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
