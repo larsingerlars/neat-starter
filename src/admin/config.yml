@@ -41,8 +41,8 @@ collections:
         name: "hero section"
         file: "src/_data/landing.yaml"
         fields:
-          - { label: "Hero intro", name: "hero-intro", widget: "string" }
-          - { label: "Hero title", name: "hero-title", widget: "string" }
+          - { label: "Hero intro", name: "hero_intro", widget: "string" }
+          - { label: "Hero title", name: "hero_title", widget: "string" }
       - label: "Navigation"
         name: "items"
         file: "src/_data/navigation.yaml"
