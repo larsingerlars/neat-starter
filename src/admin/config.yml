@@ -37,6 +37,17 @@ collections:
     editor:
       preview: true
     files:
+      - label: "Landing"
+        name: "hero section"
+        file: "src/_data/landing.yaml"
+        fields:
+          - label: Hero elements
+            name: hero-section
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: "Hero intro", name: "hero-intro", widget: "string" }
+              - { label: "Hero title", name: "hero-title", widget: "string" }
       - label: "Navigation"
         name: "items"
         file: "src/_data/navigation.yaml"
