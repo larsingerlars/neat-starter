@@ -16,14 +16,14 @@ logo_url: https://vigorous-galileo-acc7e1.netlify.app/favicon.ico
 local_backend: true
 publish_mode: editorial_workflow
 show_preview_links: true
+editor:
+  preview: true
 collections:
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
-    preview_path: "/blog/"
+    preview_path: "/blog/{{slug}}"
     create: true
-    editor:
-      preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
@@ -38,8 +38,6 @@ collections:
         options: ["Tags", "created", "from", "config.yml"]
   - label: "Settings"
     name: "settings"
-    editor:
-      preview: true
     files:
       - label: "Landing Page"
         name: "landing"
