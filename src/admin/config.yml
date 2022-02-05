@@ -7,7 +7,11 @@ backend:
   # repo: surjithctly/neat-starter
 media_folder: "src/static/img"
 public_folder: "/static/img"
-
+display_url: https://vigorous-galileo-acc7e1.netlify.app/
+site_url: https://vigorous-galileo-acc7e1.netlify.app/
+logo_url: https://vigorous-galileo-acc7e1.netlify.app/favicon.ico
+### set search to false if large collection entries might exhaust rate limits ###
+# search: false
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
 publish_mode: editorial_workflow
