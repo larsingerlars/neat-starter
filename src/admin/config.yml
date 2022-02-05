@@ -16,7 +16,7 @@ collections:
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
-    preview_path: "/posts"
+    preview_path: "/blog/"
     create: true
     editor:
       preview: true
